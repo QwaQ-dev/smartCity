@@ -53,7 +53,7 @@
     * {
         font-family: "Montserrat", sans-serif;
     }
-    .icons {
+     .icons {
         margin-right: 20px;
     }
 

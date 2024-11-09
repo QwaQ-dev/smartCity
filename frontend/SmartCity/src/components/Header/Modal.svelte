@@ -81,7 +81,7 @@
     input{
         border: none;
         width: 20.3vw;
-        border-bottom: 1px dashed grey;
+        border-bottom: 1px dashed rgb(179, 177, 177);
         outline: none;
     }
 
@@ -139,7 +139,7 @@
     
     .header {
         width: 80%;
-        background: #9c9c9c;
+        background: #d1d1d1;
         height: 20%;
         border-radius: 30px;
         padding: 10px;

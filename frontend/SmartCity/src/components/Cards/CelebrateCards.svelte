@@ -80,7 +80,7 @@
     .address {
         border: 1px solid grey;
         border-radius: 20px;
-        width: 200px;
+        width: 300px;
         display: flex;
         justify-content: center;
         align-items: center;

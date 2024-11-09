@@ -65,7 +65,6 @@
             <Appleas title='asdasdasdasdasdasdasdasdasdasdadasdasdasd' path='/'/>
         </div>
     </div>
-
    <Footer/>
 </div>
 
@@ -118,7 +117,7 @@
     }
 
     .border {
-        height: 1vh;
+        height: 0.5vh;
         width: 4vw;
         background: #761596;
         margin: 0;

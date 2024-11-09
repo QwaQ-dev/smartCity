@@ -30,6 +30,12 @@
 
 
 <style>
+
+    * {    
+        font-family: "Montserrat", sans-serif;
+    }
+
+
     .news {
         display: flex;
         align-items: center;
