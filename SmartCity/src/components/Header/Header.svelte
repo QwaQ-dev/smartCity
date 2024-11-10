@@ -21,8 +21,8 @@
     <div class="nav">
         <a href="https://govtechbot.up.railway.app/" class="header-link">Чат с ИИ</a>
         <a href="{base}/news" class="header-link">Новости</a>
-        <a href="{base}/" class="header-link">Карта событий</a>
-        <p class="header-link" on:click|preventDefault={openModal} style="cursor: pointer;">Обращение</p>
+        <a href="https://soejongghan.github.io/GovMap/" class="header-link">Карта событий</a>
+        <p class="header-link" on:click|preventDefault={openModal} style="cursor: pointer;">Предложения</p>
         <Modal isOpenModal={isOpenModal} on:closeModal={closeModal} />
         <a href="{base}/reg" class="header-link">Вход/Регистрация</a>
         <select name="lang" id="lang">

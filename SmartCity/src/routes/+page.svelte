@@ -43,8 +43,8 @@
                 <div class="border"></div>
             </div>
             <div class="check">
-                <a href='/news' style="text-decoration: none;"><div class="check-h2">Посмотреть все</div></a>
-                <a href="/news"><img src={arrow} alt="" class="check-arrow"></a>
+                <a href='{base}/news' style="text-decoration: none;"><div class="check-h2">Посмотреть все</div></a>
+                <a href="{base}/news"><img src={arrow} alt="" class="check-arrow"></a>
             </div>
         </div>
         <div class="card-section">
@@ -55,15 +55,14 @@
 
     <div class="appleas">
         <div class="appleas-top">
-            <h2 class="appleas-title">Обращения</h2>
+            <h2 class="appleas-title">Предложения</h2>
             <div class="border" style="margin-bottom: 10px;"></div>
         </div>
         <div class="appleas-str">
-            <Appleas title='one' path='{base}/'/>
-            <Appleas title='two' path='{base}/'/>
-            <Appleas title='three' path='{base}/'/>
-            <Appleas title='two' path='{base}/'/>
-            <Appleas title='asdasdasdasdasdasdasdasdasdasdadasdasdasd' path='{base}/'/>
+            <Appleas title='Починить дороги Козенкова' path='{base}/'/>
+            <Appleas title='Сделать хороший интернет в городе' path='{base}/'/>
+            <Appleas title='Построить школу Актобе Ажары' path='{base}/'/>
+            <Appleas title='Ввести новые автобусы 26' path='{base}/'/>
         </div>
     </div>
    <Footer/>

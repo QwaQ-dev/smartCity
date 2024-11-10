@@ -17,7 +17,7 @@
 <div id="modal" style="--display: {isOpenModal ? 'block' : 'none'};">
    <div class="content">
     <div class="header">
-        <h2 class="header-title">Оставить обращение</h2>
+        <h2 class="header-title">Оставить предложение</h2>
         <div class="rand">
         <p class="header-suptitle">Тут вы можете оставить публичное обращение, после модерации оно будет опубликовано. <br/>
             Его статус вы сможете увидеть на главной странице и страницах обращений </p>
