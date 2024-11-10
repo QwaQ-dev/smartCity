@@ -100,7 +100,7 @@
     }
     
     .main-section-1 {
-        margin-top: 20vh;
+        margin-top: 30vh;
         width: 60%;
         margin-left: 7vw;
     }
