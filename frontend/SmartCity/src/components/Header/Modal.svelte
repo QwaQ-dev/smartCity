@@ -67,6 +67,7 @@
 
 <style>
     .input-text {
+        margin-top: 1vh;
         width: 20vw;
         height: 4vh;
     }
@@ -83,6 +84,7 @@
         width: 20.3vw;
         border-bottom: 1px dashed rgb(179, 177, 177);
         outline: none;
+        font-size: 1.3vh;
     }
 
     form {

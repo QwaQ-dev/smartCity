@@ -18,7 +18,7 @@
         <img src={logo} alt="logo" class="logo-img">
     </div>
     <div class="nav">
-        <a href="/" class="header-link">Чат с ИИ</a>
+        <a href="https://govtechbot.up.railway.app/" class="header-link">Чат с ИИ</a>
         <a href="/news" class="header-link">Новости</a>
         <a href="/" class="header-link">Карта событий</a>
         <p class="header-link" on:click|preventDefault={openModal} style="cursor: pointer;">Обращение</p>
