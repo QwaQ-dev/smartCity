@@ -10,7 +10,7 @@
     import user2 from '../../lib/imgs/users/user2.png';
     import user3 from '../../lib/imgs/users/user3.png';
 
-
+    export const prerender = true;
 </script>
 
 

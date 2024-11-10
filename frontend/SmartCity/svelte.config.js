@@ -1,15 +1,16 @@
-import adapter from '@sveltejs/adapter-auto';
+import adapter from '@sveltejs/adapter-vercel';
+import { sveltePreprocess } from 'svelte-preprocess';
 
-import('@sveltejs/kit').Config
+/** @type {import('@sveltejs/kit').Config} */
 const config = {
-	kit: {
+    preprocess: sveltePreprocess(),
+
+    kit: {
+        adapter: adapter(),
 		paths: {
-			base: '/smartCity',
-		},
-		// If you are not using a .nojekyll file, change your appDir to something not starting with an underscore.
-		// For example, instead of '_app', use 'app_', 'internal', etc.
-		appDir: 'src',
-	}
+            base: process.env.NODE_ENV === 'production' ? '/smartCity' : '',
+        }
+    }
 };
 
 export default config;

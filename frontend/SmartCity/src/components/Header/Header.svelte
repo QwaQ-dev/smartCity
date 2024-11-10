@@ -1,4 +1,5 @@
 <script>
+    import { base } from '$app/paths';
     import logo from '../../lib/imgs/logo.png';   
     import Modal from './Modal.svelte';
 
@@ -19,11 +20,11 @@
     </div>
     <div class="nav">
         <a href="https://govtechbot.up.railway.app/" class="header-link">Чат с ИИ</a>
-        <a href="/news" class="header-link">Новости</a>
-        <a href="/" class="header-link">Карта событий</a>
+        <a href="{base}/news" class="header-link">Новости</a>
+        <a href="{base}/" class="header-link">Карта событий</a>
         <p class="header-link" on:click|preventDefault={openModal} style="cursor: pointer;">Обращение</p>
         <Modal isOpenModal={isOpenModal} on:closeModal={closeModal} />
-        <a href="/reg" class="header-link">Вход/Регистрация</a>
+        <a href="{base}/reg" class="header-link">Вход/Регистрация</a>
         <select name="lang" id="lang">
             <option value="ru">RU</option>
             <option value="eng">ENG</option>

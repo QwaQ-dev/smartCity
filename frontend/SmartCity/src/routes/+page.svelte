@@ -1,4 +1,5 @@
 <script>
+    import { base } from '$app/paths';
     import Header from "../components/Header/Header.svelte";
     import InfoCards from "../components/Cards/InfoCards.svelte";
     import Slider from "../components/Slider/Slider.svelte";
@@ -10,7 +11,7 @@
     import CelebrateCards from "../components/Cards/CelebrateCards.svelte";
     import Appleas from "../components/Appleas/Appleas.svelte";
     import Footer from "../components/Footer/Footer.svelte";
-
+    export const prerender = true;
 </script>
 
 <div class="container">
@@ -58,11 +59,11 @@
             <div class="border" style="margin-bottom: 10px;"></div>
         </div>
         <div class="appleas-str">
-            <Appleas title='one' path='/'/>
-            <Appleas title='two' path='/'/>
-            <Appleas title='three' path='/'/>
-            <Appleas title='two' path='/'/>
-            <Appleas title='asdasdasdasdasdasdasdasdasdasdadasdasdasd' path='/'/>
+            <Appleas title='one' path='{base}/'/>
+            <Appleas title='two' path='{base}/'/>
+            <Appleas title='three' path='{base}/'/>
+            <Appleas title='two' path='{base}/'/>
+            <Appleas title='asdasdasdasdasdasdasdasdasdasdadasdasdasd' path='{base}/'/>
         </div>
     </div>
    <Footer/>
