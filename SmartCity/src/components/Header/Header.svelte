@@ -16,7 +16,7 @@
 
 <header>
     <div class="logo">
-        <img src={logo} alt="logo" class="logo-img">
+        <a href="{base}/"><img src={logo} alt="logo" class="logo-img"></a>
     </div>
     <div class="nav">
         <a href="https://govtechbot.up.railway.app/" class="header-link">Чат с ИИ</a>

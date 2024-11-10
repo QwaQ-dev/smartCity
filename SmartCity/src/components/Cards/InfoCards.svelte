@@ -11,7 +11,7 @@
         <h2 class="img-name">{name}</h2>
         <img src={card_img} alt="" class="img">
     </div>
-    <button class="card-btn"><img src={white_arrow} alt=""></button>
+    <a href="https://govtechbot.up.railway.app/"><button class="card-btn"><img src={white_arrow} alt=""></button></a>
     <p class="card-descr">{descr}</p>
 </div>
 

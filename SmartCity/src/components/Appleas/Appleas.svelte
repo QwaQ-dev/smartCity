@@ -28,7 +28,7 @@
         justify-content: space-between;
         width: 370px;
         height: 20px;
-        padding: 20px;
+        padding: 30px;
         margin-top: 3vh;
         align-items: center;
     }

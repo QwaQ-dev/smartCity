@@ -20,8 +20,8 @@
         <h2 class="header-title">Оставить предложение</h2>
         <div class="rand">
         <p class="header-suptitle">Тут вы можете оставить публичное обращение, после модерации оно будет опубликовано. <br/>
-            Его статус вы сможете увидеть на главной странице и страницах обращений </p>
-            <button class="submit" on:click|preventDefault={closeModal}>Отправить обращение <img src={arrow} alt="" style="margin-left: 0.7vw;"></button>
+            Его статус вы сможете увидеть на главной странице и страницах предложений </p>
+            <button class="submit" on:click|preventDefault={closeModal}>Отправить предложение <img src={arrow} alt="" style="margin-left: 0.7vw;"></button>
         </div>
     </div>
     </div>
@@ -67,7 +67,8 @@
 
 <style>
     .input-text {
-        margin-top: 1vh;
+        border-radius: 20px;
+        padding: 5px;
         width: 20vw;
         height: 4vh;
     }
@@ -88,6 +89,7 @@
     }
 
     form {
+        border-radius: 30px;
         font-size: 1.5vh;
         display: flex;
         flex-direction: column;
@@ -141,7 +143,7 @@
     
     .header {
         width: 80%;
-        background: #d1d1d1;
+        background: #d1d1d134;
         height: 20%;
         border-radius: 30px;
         padding: 10px;
@@ -162,8 +164,8 @@
         padding: 30px;
         display: var(--display);
         position: fixed;
-        height: 60vh;
-        width: 60vw;
+        height: 70vh;
+        width: 70vw;
         z-index: 2;
         top: 50%;
         left: 50%;

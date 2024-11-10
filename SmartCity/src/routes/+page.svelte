@@ -27,8 +27,8 @@
                 <div class="border"></div>
             </div>
             <div class="check">
-                <div class="check-h2">Посмотреть все</div>
-                <img src={arrow} alt="" class="check-arrow">
+                <a href='https://govtechbot.up.railway.app/' style="text-decoration: none;"><div class="check-h2">Посмотреть все</div></a>
+                <a href="https://govtechbot.up.railway.app/"><img src={arrow} alt="" class="check-arrow"></a>
             </div>
         </div>
         <div class="card-section">

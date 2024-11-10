@@ -1,4 +1,6 @@
 <script>
+
+    import { base } from '$app/paths';    
     import white_arrow from '../../lib/imgs/cards/white-arrow.png';
     import map from '../../lib/imgs/cards/map.png';
 
@@ -13,7 +15,7 @@
         <h2 class="img-name">{name}</h2>
         <img src={card_img} alt="" class="img">
     </div>
-    <button class="card-btn"><img src={white_arrow} alt=""></button>
+    <a href="{base}/news"><button class="card-btn"><img src={white_arrow} alt=""></button></a>
     <p class="card-descr">{descr}</p>
     <div class="address">
         <img src={map} alt="" class="addr-img">
