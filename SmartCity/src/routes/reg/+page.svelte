@@ -47,7 +47,7 @@
         padding: 20px;
         width: 300px;
         height: 380px;
-        background: #1c2833;
+        background: #1c28337e;
         color: white;
         margin: 20vh auto;
         border-radius: 10px;
@@ -89,5 +89,9 @@
         text-decoration: none;
         color: white;
         margin-left: 30%;
+    }
+    
+    ::placeholder {
+        color:#fff;
     }
 </style>
