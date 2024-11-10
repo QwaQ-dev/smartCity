@@ -42,6 +42,7 @@
         justify-content: space-around;
         align-items: center;
         width: auto;
+        position: relative;
         height: 181px;
     }
 
