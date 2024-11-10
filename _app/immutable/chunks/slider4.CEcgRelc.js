@@ -1,0 +1,1 @@
+const s=""+new URL("../assets/slider1.DgXN54_c.jpg",import.meta.url).href,e=""+new URL("../assets/slider2.CyDcI7XS.jpg",import.meta.url).href,t=""+new URL("../assets/slider3.BBOpi-5t.jpg",import.meta.url).href,r=""+new URL("../assets/slider4.CghM7NLA.jpg",import.meta.url).href;export{e as a,t as b,r as c,s as i};
